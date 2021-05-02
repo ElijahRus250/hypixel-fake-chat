@@ -68,4 +68,4 @@ async def render_image(request):
 
 app = web.Application()
 app.add_routes(routes)
-web.run_app(app)
+web.run_app(app, port=os.getenv('PORT'))
