@@ -3,7 +3,7 @@ import os
 import re
 import random
 
-text_size = 16
+text_size = 20
 
 font = ImageFont.truetype('fonts/Minecraft.otf', text_size)
 
